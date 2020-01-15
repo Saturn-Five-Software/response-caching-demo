@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "ba866895-c192-4e91-a266-604e283dbf50",
+		"name": "Response-Caching-Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Dogs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:4443/dogs",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "4443",
+					"path": [
+						"dogs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Dogs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:4443/dogs",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "4443",
+					"path": [
+						"dogs"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
